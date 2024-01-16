@@ -1,0 +1,475 @@
+#addfooter {
+  background-color: white;
+  background-image: none;
+  text-align: center;
+}
+#addfooter p {
+  color: black;
+}
+
+#formsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/menu-bg.jpg);
+  background-size: cover;
+}
+#formsection .formdiv {
+  margin-top: 30px;
+  width: 50%;
+}
+#formsection .formdiv form label {
+  color: white;
+}
+#formsection .formdiv form input {
+  border-radius: 0px;
+  padding: 15px;
+}
+#formsection .formdiv form button {
+  margin-bottom: 20px;
+  background-color: #FCC316;
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+  color: black;
+  border-radius: 0px;
+}
+#formsection .formdiv form button:hover {
+  background-color: black;
+  color: #CA9B28;
+  transition: 0.3s;
+}
+
+#basketheader {
+  position: static;
+  background-color: black;
+}
+
+#wishlistdiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#wishlistdiv .products .apiproducts {
+  text-align: center;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+#wishlistdiv .products .apiproducts p {
+  color: #FCC316;
+  font-weight: bolder;
+}
+#wishlistdiv .products .apiproducts button {
+  margin-bottom: 20px;
+  background-color: #FCC316;
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+}
+#wishlistdiv .products .apiproducts button:hover {
+  background-color: black;
+  color: #CA9B28;
+  transition: 0.3s;
+}
+
+#wishlistfooter {
+  background-color: white;
+  background-image: none;
+  text-align: center;
+}
+#wishlistfooter p {
+  color: black;
+}
+
+#basketheader {
+  position: static;
+  background-color: black;
+}
+
+#basketdiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#basketdiv .products .apiproducts {
+  text-align: center;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+#basketdiv .products .apiproducts p {
+  color: #FCC316;
+  font-weight: bolder;
+}
+#basketdiv .products .apiproducts button {
+  margin-bottom: 20px;
+  background-color: #FCC316;
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+}
+#basketdiv .products .apiproducts button:hover {
+  background-color: black;
+  color: #CA9B28;
+  transition: 0.3s;
+}
+
+#basketfooter {
+  background-color: white;
+  background-image: none;
+  text-align: center;
+}
+#basketfooter p {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  border-top: 0.5px solid gray;
+  border-bottom: 0.5px solid gray;
+}
+header .container {
+  width: 95%;
+}
+header .container .nav .logodiv {
+  width: 20%;
+}
+header .container .nav .logodiv a {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+header .container .nav .logodiv a span {
+  color: #FCC316;
+}
+header .container .nav .collapseDiv {
+  justify-content: center;
+}
+header .container .nav .collapseDiv ul li a {
+  font-size: 18px;
+  color: white;
+}
+header .container .nav .collapseDiv ul li a:hover {
+  color: #FCC316;
+  transition: 0.3s;
+}
+header .container .contact {
+  color: #FCC316;
+  display: flex;
+  align-items: center;
+}
+header .container .contact i {
+  color: white;
+}
+header .container .contact span {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  header .container .nav .contact {
+    display: none;
+  }
+}
+main #dishsection {
+  background-image: url(/assets/img/slider-2.jpg);
+  background-size: cover;
+  background-color: gold;
+}
+main #dishsection .dishdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: red;
+  position: relative;
+}
+main #dishsection .dishdiv .numberdiv {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  margin-left: 30px;
+  position: absolute;
+  left: 20px;
+  font-weight: bolder;
+  padding: 30px;
+}
+main #dishsection .dishdiv .textdiv {
+  position: absolute;
+  right: 20px;
+}
+main #dishsection .dishdiv .textdiv h1 {
+  color: white;
+  font-size: 100px;
+}
+main #dishsection .dishdiv .textdiv h1 span {
+  color: #FCC316;
+}
+main #dishsection .dishdiv .textdiv p {
+  color: white;
+}
+main #welcome {
+  width: 100%;
+}
+main #welcome .container {
+  width: 95%;
+}
+main #welcome .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+main #welcome .container .titlediv h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+main #welcome .container .row .welcomediv {
+  text-align: center;
+  margin-top: 30px;
+}
+main #welcome .container .row .welcomediv h1 {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main #welcome .container .row .welcomediv p {
+  color: gray;
+}
+main #welcome .container .signdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+main #testimonials {
+  background-image: url(/assets/img/review-bg.jpg);
+  margin-top: 30px;
+  background-size: cover;
+  margin-top: 30px;
+  width: 100%;
+}
+main #testimonials .container {
+  width: 95%;
+}
+main #testimonials .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+main #testimonials .container .titlediv i {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 30px;
+}
+main #testimonials .container .titlediv h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+}
+main #testimonials .container .testimonialsdiv {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+main #testimonials .container .testimonialsdiv span {
+  color: #FCC316;
+}
+main #services {
+  width: 100%;
+}
+main #services .container {
+  width: 95%;
+}
+main #services .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+main #services .container .titlediv img {
+  margin-bottom: 10px;
+}
+main #services .container .titlediv h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+}
+main #services .container .row .servicesdiv {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main #services .container .row .servicesdiv i {
+  margin-top: 30px;
+  font-size: 40px;
+  color: #CA9B28;
+  margin-bottom: 10px;
+}
+main #services .container .row .servicesdiv h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+main #services .container .row .servicesdiv p {
+  color: gray;
+  margin-bottom: 30px;
+}
+main #ourmenu {
+  background-image: url(/assets/img/menu-bg.jpg);
+  background-attachment: fixed;
+}
+main #ourmenu .container .selectdiv {
+  margin-bottom: 30px;
+  margin-left: 18px;
+}
+main #ourmenu .container .selectdiv select {
+  background-color: #FCC316;
+  color: black;
+  font-weight: bolder;
+}
+main #ourmenu .container .selectdiv select:hover {
+  background-color: black;
+  color: #FCC316;
+  transition: 0.3s;
+}
+main #ourmenu .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+main #ourmenu .container .titlediv i {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 30px;
+}
+main #ourmenu .container .titlediv h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+main #ourmenu .container .titlediv .pdiv {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+main #ourmenu .container #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #ourmenu .container #apidiv .products .apiproducts {
+  text-align: center;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+main #ourmenu .container #apidiv .products .apiproducts p {
+  color: #FCC316;
+  font-weight: bolder;
+}
+main #ourmenu .container #apidiv .products .apiproducts button {
+  margin-bottom: 20px;
+  background-color: #FCC316;
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+}
+main #ourmenu .container #apidiv .products .apiproducts button:hover {
+  background-color: black;
+  color: #CA9B28;
+  transition: 0.3s;
+}
+
+footer {
+  width: 100%;
+  background-image: url(/assets/img/slider-2.jpg);
+  margin-top: -30px;
+}
+footer .container .footerdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: white;
+  margin-top: 30px;
+}
+footer .container .footerdiv i {
+  margin-top: 30px;
+  font-size: 60px;
+  color: gray;
+  margin-bottom: 10px;
+}
+footer .container .footerdiv h1 {
+  font-size: 50px;
+  color: black;
+}
+footer .container .footerdiv form {
+  display: flex;
+  gap: 60px;
+  width: 80%;
+  justify-content: center;
+}
+footer .container .footerdiv form .onediv {
+  width: 50%;
+}
+footer .container .footerdiv form .onediv input {
+  width: 100%;
+  background-color: #eff0f0;
+  border: none;
+}
+footer .container .footerdiv form .onediv textarea {
+  background-color: #eff0f0;
+  border: none;
+}
+footer .container .footerdiv form .twodiv {
+  width: 50%;
+}
+footer .container .footerdiv form .twodiv input {
+  width: 100%;
+  background-color: #eff0f0;
+  border: none;
+}
+footer .container .footerdiv button {
+  background-color: #FCC316;
+  border: none;
+  padding: 20px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+footer .container .footdiv {
+  text-align: center;
+  color: gray;
+  margin-top: 30px;
+}
+footer .container .footdiv p {
+  margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 878px) {
+  main #dishsection .dishdiv .numberdiv {
+    display: none;
+  }
+  main #dishsection .dishdiv .textdiv h1 {
+    font-size: 60px;
+  }
+}

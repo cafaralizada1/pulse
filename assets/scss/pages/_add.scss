@@ -1,0 +1,43 @@
+#addfooter{
+    background-color: white;
+    background-image: none;
+    text-align: center;
+    p{
+        color: black;
+    }
+ }
+#formsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/menu-bg.jpg);
+    background-size: cover;
+    .formdiv{
+        margin-top: 30px;
+        width: 50%;
+        form{
+            label{
+                color: white;
+            }
+            input{
+                border-radius: 0px;
+                padding: 15px;
+            }
+            button{
+                margin-bottom: 20px;
+                background-color: $main-color;
+                padding: 10px;
+                border: none;
+       font-weight: bolder;
+       color: black;
+       border-radius: 0px;
+    
+            }
+            button:hover{
+                background-color: black;
+                color: #CA9B28;
+                transition: 0.3s;
+            }
+        }
+    }
+}

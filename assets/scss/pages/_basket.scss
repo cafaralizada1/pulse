@@ -1,0 +1,43 @@
+#basketheader{
+    position: static;
+    background-color: black;
+}
+#basketdiv{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      .products{
+        .apiproducts{
+            text-align: center;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+            p{
+               color: $main-color;
+               font-weight: bolder;
+            }
+            button{
+                margin-bottom: 20px;
+                background-color: $main-color;
+                padding: 10px;
+                border: none;
+       font-weight: bolder;
+    
+            }
+            button:hover{
+                background-color: black;
+                color: #CA9B28;
+                transition: 0.3s;
+            }
+        }
+       
+      }
+           }
+         #basketfooter{
+            background-color: white;
+            background-image: none;
+            text-align: center;
+            p{
+                color: black;
+            }
+         }
